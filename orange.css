@@ -1,5 +1,8 @@
-#promo-container {
+body {
   font-family: 'Figtree', sans-serif;
+}
+
+#promo-container {
   display: flex;
   justify-content: center;
   padding: 40px 20px;
@@ -24,9 +27,19 @@
   line-height: 1.2;
 }
 
-#promo-section h1 { font-size: 22pt; }
-#promo-section h2 { font-size: 18pt; margin-top: 1.4em; }
-#promo-section h4 { font-size: 13pt; margin-top: 2em; }
+#promo-section h1 {
+  font-size: 22pt;
+}
+
+#promo-section h2 {
+  font-size: 18pt;
+  margin-top: 1.4em;
+}
+
+#promo-section h4 {
+  font-size: 13pt;
+  margin-top: 2em;
+}
 
 #promo-section p {
   margin-top: 0;

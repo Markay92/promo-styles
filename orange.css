@@ -16,13 +16,13 @@ body {
   font-size: 17px;
   line-height: 1.6;
 }
-#card-card {
+.card-card {
 background: white;
 padding: 1rem;
 border-radius: 0.5rem;
 margin-bottom: 1.5rem;
 }
-#title {
+.title {
 font-size: 46px;
 font-weight: 700;
 margin-bottom: 1.6rem;

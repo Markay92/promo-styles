@@ -80,21 +80,17 @@ line-height: 1.3;
   margin-top: 1.5rem;
   font-size: 15px;
 }
-
 .comparison-table th,
 .comparison-table td {
-  border: 1px solid #ccc;
+  border: 1px solid #ddd;
   padding: 12px;
   text-align: left;
 }
-
 .comparison-table th {
-  background-color: #f7f7f7;
-  font-weight: bold;
+  background-color: #f9f9f9;
+  font-weight: 700;
   color: #222;
 }
-
 .comparison-table tr:nth-child(even) {
-  background-color: #f9f9f9;
+  background-color: #f6f6f6;
 }
-

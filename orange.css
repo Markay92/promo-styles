@@ -2,7 +2,7 @@ body {
   font-family: 'Figtree', sans-serif;
 }
 
-/* Layout */
+/* Container */
 #promo-container {
   display: flex;
   justify-content: center;
@@ -26,41 +26,91 @@ body {
   line-height: 1.3;
 }
 
-/* Card */
+/* Card Box */
 .card-card {
   background: #fcfcfc;
-  padding: 0.5rem 0.75rem 0.75rem;
+  padding: 0.4rem 0.75rem 0.75rem;
   border: 1px solid #cacaca;
   border-radius: 0.5rem;
   margin-bottom: 1.25rem;
 }
 
+/* Card Headings */
 .card-card h1,
 .card-card h2,
 .card-card h3,
 .card-card h4 {
-  padding-top: 0.4rem;
   margin: 0 0 0.6rem;
+  padding-top: 0.4rem;
   line-height: 1.2;
   color: #222;
 }
 
+.card-card h1 {
+  font-size: 20pt;
+}
+
 .card-card h1 a {
+  display: inline-block;
   text-decoration: underline;
-  cursor: pointer;
-  color: inherit;
-}
-
-/* Labels */
-.label {
-  font-size: 12pt;
+  color: #1155cc;
   font-weight: 700;
-  text-transform: uppercase;
-  margin: 1.5rem 0 0.75rem;
-  color: #222;
 }
 
-/* Promo Section Headings */
+/* Card Label (e.g., “Simple Travel”) */
+.card-card .label {
+  margin: 0.4rem 0 0.6rem;
+  font-size: 11pt;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #444;
+}
+
+/* Section Labels like “REWARDS”, “REDEMPTION OPTIONS” */
+.card-card strong.section-label {
+  display: block;
+  margin: 0.8rem 0 0.4rem;
+  font-size: 13pt;
+  font-weight: 700;
+  color: #111;
+}
+
+/* Lists */
+.card-card ul {
+  margin: 0.5rem 0 0.8rem;
+  padding-left: 1.1em;
+}
+
+.card-card li {
+  margin-bottom: 0.3rem;
+}
+
+/* Final Question Block */
+.card-card p:last-of-type {
+  margin-top: 0.6rem;
+  font-weight: 500;
+}
+
+/* General Text Elements */
+#promo-section p {
+  margin: 0 0 0.8em;
+}
+
+#promo-section ul {
+  margin: 0.6em 0 0.8em;
+  padding-left: 1.1em;
+}
+
+#promo-section li {
+  margin-bottom: 0.3em;
+}
+
+#promo-section a {
+  color: #1155cc;
+  text-decoration: underline;
+}
+
+/* Headings */
 #promo-section h1 {
   font-size: 22pt;
   margin-top: 2rem;
@@ -82,26 +132,6 @@ body {
   color: #222;
   line-height: 1.2;
   margin-bottom: 0.8rem;
-}
-
-/* Text & Lists */
-#promo-section p {
-  margin: 0 0 0.8em;
-}
-
-#promo-section ul {
-  margin: 0.6em 0 0.8em;
-  padding-left: 1.1em;
-}
-
-#promo-section li {
-  margin-bottom: 0.3em;
-}
-
-/* Links */
-#promo-section a {
-  color: #1155cc;
-  text-decoration: underline;
 }
 
 /* Note Box */
@@ -145,7 +175,7 @@ body {
   background-color: #f6f6f6;
 }
 
-/* Utility Spacer */
+/* Spacer Utility */
 .spacer {
   margin-top: 1.5rem;
 }

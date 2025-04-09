@@ -51,7 +51,10 @@ body {
     cursor: pointer;
     color: inherit; /* Ensures it uses the same color as the surrounding text */
 }
-
+#promo-section .card-card p {
+    margin-top: 0;
+    margin-bottom: 0.2rem;
+}
 #promo-section h2 {
     font-size: 18pt;
     margin-top: 2.5rem;

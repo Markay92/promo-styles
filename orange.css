@@ -51,19 +51,14 @@ body {
     color: inherit;          /* Minimal styling: inherits color */
 }
 
-#promo-section .card-card h1 a {
+#promo-section .card-card h1 {
+    margin-top: 0;
+    margin-bottom: 0.8rem;
+}
+	#promo-section .card-card h1 a {
     text-decoration: underline;
     cursor: pointer;
     color: inherit; /* Ensures it uses the same color as the surrounding text */
-}
-
-/* General heading styles outside of .card-card remain unchanged */
-#promo-section h1 {
-    font-size: 22pt;
-    margin-top: 2rem;
-    margin-bottom: 1rem;
-    color: #222;
-    line-height: 1.2;
 }
 
 #promo-section h2 {

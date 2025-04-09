@@ -22,7 +22,7 @@ body {
     font-weight: 700;
     font-size: 12pt;
     margin-top: 2rem;
-    margin-bottom: 1rem;
+    margin-bottom: 0.6rem;
     color: #222;
 }
 
@@ -42,11 +42,11 @@ body {
 }
 
 
-#promo-section .card-card h1 {
+#promo-section .card-card h2 {
     margin-top: 0;
     margin-bottom: 0.8rem;
 }
-#promo-section .card-card h1 a {
+#promo-section .card-card h2 a {
     text-decoration: underline;
     cursor: pointer;
     color: inherit; /* Ensures it uses the same color as the surrounding text */

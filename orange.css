@@ -1,9 +1,8 @@
-body {
-  font-family: 'Figtree', sans-serif;
-}
+
 
 /* Container */
 #promo-container {
+    font-family: 'Figtree', sans-serif;
   display: flex;
   justify-content: center;
   padding: 0;

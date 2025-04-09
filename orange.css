@@ -51,10 +51,10 @@ body {
     color: inherit;          /* Minimal styling: inherits color */
 }
 
-.card-card h1 a {
+#promo-section .card-card h1 a {
     text-decoration: underline;
     cursor: pointer;
-    color: inherit;
+    color: inherit; /* Ensures it uses the same color as the surrounding text */
 }
 
 /* General heading styles outside of .card-card remain unchanged */

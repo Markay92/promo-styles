@@ -44,7 +44,7 @@ body {
 
 #promo-section .card-card h3 {
     margin-top: 0;
-    margin-bottom: 0.8rem;
+    margin-bottom: 0.2rem;
 }
 #promo-section .card-card h3 a {
     text-decoration: underline;
@@ -65,8 +65,8 @@ body {
 
 #promo-section h3 {
     font-size: 16pt;
-    margin-top: 2.5rem;
-    margin-bottom: 1rem;
+    margin-top: 0;
+    margin-bottom: 0;
     color: #222;
     line-height: 1.2;
 }

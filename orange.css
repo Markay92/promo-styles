@@ -51,7 +51,7 @@ body {
 }
 
 /* Card Headings */
-.card-card h1 {
+#promo-section .card-card h1 {
   font-size: 1.4rem;
   margin: 0 0 0.8rem;
   line-height: 1.4;

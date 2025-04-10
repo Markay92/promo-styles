@@ -43,7 +43,7 @@ body {
   display: inline-block;
   background-color: #007aff;
   color: #fff;
-  font-size: 0.75rem;
+  font-size: 0.55rem;
   font-weight: 600;
   text-transform: uppercase;
   padding: 0.25rem 0.6rem;
@@ -77,19 +77,19 @@ body {
 
 /* Lists */
 .card-card ul {
-  margin: 0 0 1rem;
-  padding-left: 1.2rem;
+  margin: 0 0 0.4rem;
+  padding-left: 1rem;
 }
 
 .card-card li {
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.2rem;
   line-height: 1.5;
 }
 
 /* Paragraphs */
 .card-card p {
   margin: 0.4rem 0;
-  line-height: 1.5;
+  line-height: 1.4;
 }
 
 /* Final Question Block */

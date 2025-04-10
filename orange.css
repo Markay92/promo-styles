@@ -114,7 +114,7 @@ body {
 }
 
 /* Bottom Link Button (optional CTA like kosher market link) */
-.bottom-link {
+#promo-section .bottom-link {
   display: block;
   background-color: #004fc1;
   color: #fff;

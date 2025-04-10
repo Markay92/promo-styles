@@ -60,7 +60,7 @@ body {
 #promo-section .card-card h1 a {
   display: inline-block;
   text-decoration: none;
-  color: #0033cc;
+  color: inherit;
   font-weight: 700;
 }
 

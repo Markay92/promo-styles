@@ -227,10 +227,10 @@ body {
 .spacer {
   margin-top: 1.5rem;
 }
-hr {
-  margin: 2rem 0; /* top and bottom spacing */
+.section-break {
+  margin: 2rem 0;
   border: none;
-  border-top: 1px solid #ccc; /* or whatever color you want */
+  border-top: 1px solid #ddd;
 }
 
 #promo-container a {

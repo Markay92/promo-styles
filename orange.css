@@ -1,5 +1,10 @@
-body {
+/* Scoped Font */
+#promo-container {
   font-family: 'Figtree', sans-serif;
+}
+
+/* Body Background */
+body {
   background-color: #f9f9f9;
 }
 
@@ -11,6 +16,7 @@ body {
   padding: 0;
 }
 
+/* Promo Section */
 #promo-section {
   width: 100%;
   padding: 0;
@@ -63,9 +69,13 @@ body {
 
 #promo-section .card-card h1 a {
   display: inline-block;
-  text-decoration: none;
   color: inherit;
   font-weight: 700;
+  text-decoration: none;
+}
+
+#promo-section .card-card h1 a:hover {
+  text-decoration: underline;
 }
 
 /* Section Headings (REWARDS, REDEMPTION OPTIONS, etc.) */
@@ -98,15 +108,20 @@ body {
   font-size: 0.95rem;
 }
 
-/* Final Block */
 .card-card p:last-of-type {
   margin-top: 0.6rem;
   font-weight: 500;
 }
 
-/* Inline Links */
-.card-card a {
+/* Inline Links (default no underline, hover underline) */
+.card-card a,
+#promo-section a {
   color: #1155cc;
+  text-decoration: none;
+}
+
+.card-card a:hover,
+#promo-section a:hover {
   text-decoration: underline;
 }
 
@@ -120,7 +135,7 @@ body {
   font-size: 0.88rem;
 }
 
-/* Bottom Link Button (e.g., kosher link) */
+/* Bottom Link Button */
 #promo-section .bottom-link {
   display: block;
   background-color: #002d5d;
@@ -134,7 +149,11 @@ body {
   font-size: 0.92rem;
 }
 
-/* General Promo Section Styles */
+#promo-section .bottom-link:hover {
+  text-decoration: underline;
+}
+
+/* General Promo Section Styling */
 #promo-section p {
   margin: 0 0 0.8em;
 }
@@ -146,11 +165,6 @@ body {
 
 #promo-section li {
   margin-bottom: 0.3em;
-}
-
-#promo-section a {
-  color: #1155cc;
-  text-decoration: underline;
 }
 
 /* Headings */
@@ -213,12 +227,3 @@ body {
 .spacer {
   margin-top: 1.5rem;
 }
-
-a {
-  text-decoration: none;
-}
-
-a:hover {
-  text-decoration: underline;
-}
-

@@ -227,3 +227,12 @@ body {
 .spacer {
   margin-top: 1.5rem;
 }
+
+#promo-container a {
+  text-decoration: none !important;
+}
+
+#promo-container a:hover {
+  text-decoration: underline !important;
+}
+

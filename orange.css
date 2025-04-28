@@ -3,10 +3,6 @@
   font-family: 'Figtree', sans-serif;
 }
 
-/* Body Background */
-body {
-  background-color: #f9f9f9;
-}
 
 /* Container */
 #promo-container {
@@ -78,7 +74,7 @@ body {
   text-decoration: underline;
 }
 
-/* Section Headings (REWARDS, REDEMPTION OPTIONS, etc.) */
+/* Section Labels */
 .card-card strong.section-label {
   display: block;
   margin: 1.2rem 0 0.4rem;
@@ -113,7 +109,7 @@ body {
   font-weight: 500;
 }
 
-/* Inline Links (default no underline, hover underline) */
+/* Links */
 .card-card a,
 #promo-section a {
   color: #1155cc;
@@ -153,7 +149,7 @@ body {
   text-decoration: underline;
 }
 
-/* General Promo Section Styling */
+/* General Paragraphs and Lists */
 #promo-section p {
   margin: 0 0 0.8em;
 }
@@ -168,31 +164,31 @@ body {
 }
 
 /* Headings */
-#promo-section h1 {
-  font-size: 22pt;
-  margin-top: 0.2rem;
-}
-
-#promo-section h2 {
-  font-size: 18pt;
-  margin-top: 0.2rem;
-}
-#promo-section h3 {
-  margin-top: 0.5rem;
-  margin-bottom: 0.5rem;
-}
-
-#promo-section h4 {
-  font-size: 13pt;
-  margin-top: 1.5rem;
-}
-
-#promo-section h1,
-#promo-section h2,
+#promo-section h1, 
+#promo-section h2, 
+#promo-section h3, 
 #promo-section h4 {
   color: #222;
   line-height: 1.2;
+  margin-top: 0.5rem;
   margin-bottom: 0.8rem;
+  font-weight: 700;
+}
+
+#promo-section h1 {
+  font-size: 32px;
+}
+
+#promo-section h2 {
+  font-size: 26px;
+}
+
+#promo-section h3 {
+  font-size: 22px;
+}
+
+#promo-section h4 {
+  font-size: 18px;
 }
 
 /* Disclaimer */
@@ -227,16 +223,18 @@ body {
   background-color: #f6f6f6;
 }
 
-/* Spacer Utility */
+/* Spacer and Section Break */
 .spacer {
   margin-top: 1.5rem;
 }
+
 .section-break {
   margin: 2rem 0;
   border: none;
   border-top: 1px solid #ddd;
 }
 
+/* Force Link Styles */
 #promo-container a {
   text-decoration: none !important;
 }
@@ -244,13 +242,15 @@ body {
 #promo-container a:hover {
   text-decoration: underline !important;
 }
-hr {
-   margin: 2rem 0; /* top and bottom spacing */
-   border: none;
-   border-top: 0.6px solid #ccc; /* or whatever color you want */
- }
 
+/* HR */
+hr {
+  margin: 2rem 0;
+  border: none;
+  border-top: 0.6px solid #ccc;
+}
+
+/* Bold Text */
 #promo-container strong {
   font-weight: 700;
 }
-

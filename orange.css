@@ -5,10 +5,6 @@
 body {
   background-color: #f9f9f9;
 }
-h1.ph1, h2.ph2, h3.ph3, h4.ph4 {
-  all: unset;
-  display: block;
-}
 
 /* Promo Container */
 #promo-container {
@@ -27,7 +23,7 @@ h1.ph1, h2.ph2, h3.ph3, h4.ph4 {
   line-height: 1.4;
 }
 
-/* General Paragraphs and Lists */
+/* Paragraphs and Lists */
 #promo-section p {
   margin: 0 0 0.8em;
   line-height: 1.6;
@@ -45,7 +41,7 @@ h1.ph1, h2.ph2, h3.ph3, h4.ph4 {
 }
 
 /* Promo Headings (Custom Classes) */
-.ph1 {
+h1.ph1 {
   font-size: 32px;
   color: #222;
   line-height: 1.2;
@@ -54,7 +50,7 @@ h1.ph1, h2.ph2, h3.ph3, h4.ph4 {
   font-weight: 700;
 }
 
-.ph2 {
+h2.ph2 {
   font-size: 26px;
   color: #222;
   line-height: 1.2;
@@ -63,7 +59,7 @@ h1.ph1, h2.ph2, h3.ph3, h4.ph4 {
   font-weight: 700;
 }
 
-.ph3 {
+h3.ph3 {
   font-size: 22px;
   color: #222;
   line-height: 1.2;
@@ -72,7 +68,7 @@ h1.ph1, h2.ph2, h3.ph3, h4.ph4 {
   font-weight: 700;
 }
 
-.ph4 {
+h4.ph4 {
   font-size: 18px;
   color: #222;
   line-height: 1.2;
@@ -81,7 +77,7 @@ h1.ph1, h2.ph2, h3.ph3, h4.ph4 {
   font-weight: 700;
 }
 
-/* Force Link Styles */
+/* Link Styles */
 #promo-container a {
   color: #1155cc;
   text-decoration: none;
@@ -176,7 +172,6 @@ h1.ph1, h2.ph2, h3.ph3, h4.ph4 {
   color: #333;
 }
 
-/* Card Labels */
 .card-card .label {
   display: inline-block;
   background-color: #007aff;
@@ -190,7 +185,6 @@ h1.ph1, h2.ph2, h3.ph3, h4.ph4 {
   letter-spacing: 0.5px;
 }
 
-/* Card Headings */
 .card-card h1 {
   font-size: 1.55rem;
   margin: 0 0 0.8rem;
@@ -210,7 +204,6 @@ h1.ph1, h2.ph2, h3.ph3, h4.ph4 {
   text-decoration: underline;
 }
 
-/* Section Labels inside Cards */
 .card-card strong.section-label {
   display: block;
   margin: 1.2rem 0 0.4rem;
@@ -221,7 +214,6 @@ h1.ph1, h2.ph2, h3.ph3, h4.ph4 {
   color: #111;
 }
 
-/* Lists inside Cards */
 .card-card ul {
   margin: 0 0 0.4rem;
   padding-left: 1.2rem;
@@ -233,7 +225,6 @@ h1.ph1, h2.ph2, h3.ph3, h4.ph4 {
   font-size: 0.95rem;
 }
 
-/* Paragraphs inside Cards */
 .card-card p {
   margin: 0.5rem 0;
   line-height: 1.5;
@@ -246,7 +237,6 @@ h1.ph1, h2.ph2, h3.ph3, h4.ph4 {
   font-weight: 500;
 }
 
-/* Links inside Cards */
 .card-card a {
   color: #1155cc;
   text-decoration: none;
@@ -256,7 +246,6 @@ h1.ph1, h2.ph2, h3.ph3, h4.ph4 {
   text-decoration: underline;
 }
 
-/* Note Box inside Cards */
 .note {
   background-color: #f1f1f1;
   border-left: 4px solid #bbb;

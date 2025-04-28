@@ -5,6 +5,10 @@
 body {
   background-color: #f9f9f9;
 }
+h1.ph1, h2.ph2, h3.ph3, h4.ph4 {
+  all: unset;
+  display: block;
+}
 
 /* Promo Container */
 #promo-container {

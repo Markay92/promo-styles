@@ -1,3 +1,10 @@
+/* Reset Default Browser Styling */
+#promo-container, #promo-section, h1, h2, h3, h4, p, ul, li, a, strong, hr {
+  all: unset;
+  display: revert;
+  box-sizing: border-box;
+}
+
 /* Font and Body */
 #promo-container {
   font-family: 'Figtree', sans-serif;
@@ -26,8 +33,8 @@ body {
 /* Paragraphs and Lists */
 #promo-section p {
   margin: 0 0 0.8em;
-  line-height: 1.6;
   font-size: 17px;
+  line-height: 1.6;
   letter-spacing: 0em;
 }
 
@@ -38,43 +45,45 @@ body {
 
 #promo-section li {
   margin-bottom: 0.5em;
+  line-height: 1.6;
+  letter-spacing: 0em;
 }
 
 /* Promo Headings (Custom Classes) */
 h1.ph1 {
   font-size: 32px;
   color: #222;
+  font-weight: 700;
   line-height: 1.2;
   margin-top: 0.2rem;
   margin-bottom: 0.8rem;
-  font-weight: 700;
 }
 
 h2.ph2 {
   font-size: 26px;
   color: #222;
+  font-weight: 700;
   line-height: 1.2;
   margin-top: 0.2rem;
   margin-bottom: 0.8rem;
-  font-weight: 700;
 }
 
 h3.ph3 {
   font-size: 22px;
   color: #222;
+  font-weight: 700;
   line-height: 1.2;
   margin-top: 0.5rem;
   margin-bottom: 0.5rem;
-  font-weight: 700;
 }
 
 h4.ph4 {
   font-size: 18px;
   color: #222;
+  font-weight: 700;
   line-height: 1.2;
   margin-top: 1.5rem;
   margin-bottom: 0.8rem;
-  font-weight: 700;
 }
 
 /* Link Styles */
@@ -185,6 +194,7 @@ h4.ph4 {
   letter-spacing: 0.5px;
 }
 
+/* Card Headings */
 .card-card h1 {
   font-size: 1.55rem;
   margin: 0 0 0.8rem;
@@ -204,6 +214,7 @@ h4.ph4 {
   text-decoration: underline;
 }
 
+/* Section Labels inside Cards */
 .card-card strong.section-label {
   display: block;
   margin: 1.2rem 0 0.4rem;
@@ -214,6 +225,7 @@ h4.ph4 {
   color: #111;
 }
 
+/* Lists inside Cards */
 .card-card ul {
   margin: 0 0 0.4rem;
   padding-left: 1.2rem;
@@ -225,6 +237,7 @@ h4.ph4 {
   font-size: 0.95rem;
 }
 
+/* Paragraphs inside Cards */
 .card-card p {
   margin: 0.5rem 0;
   line-height: 1.5;
@@ -237,6 +250,7 @@ h4.ph4 {
   font-weight: 500;
 }
 
+/* Links inside Cards */
 .card-card a {
   color: #1155cc;
   text-decoration: none;
@@ -246,6 +260,7 @@ h4.ph4 {
   text-decoration: underline;
 }
 
+/* Note Box inside Cards */
 .note {
   background-color: #f1f1f1;
   border-left: 4px solid #bbb;

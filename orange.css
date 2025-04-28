@@ -48,10 +48,35 @@ body {
 }
 
 /* Headings */
-#promo-container #promo-section h1, 
-#promo-container #promo-section h2, 
-#promo-container #promo-section h3, 
+#promo-container #promo-section h1 {
+  font-size: 32px;
+  color: #222;
+  line-height: 1.2;
+  margin-top: 0.2rem;
+  margin-bottom: 0.8rem;
+  font-weight: 700;
+}
+
+#promo-container #promo-section h2 {
+  font-size: 26px;
+  color: #222;
+  line-height: 1.2;
+  margin-top: 0.2rem;
+  margin-bottom: 0.8rem;
+  font-weight: 700;
+}
+
+#promo-container #promo-section h3 {
+  font-size: 22px;
+  color: #222;
+  line-height: 1.2;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  font-weight: 700;
+}
+
 #promo-container #promo-section h4 {
+  font-size: 18px;
   color: #222;
   line-height: 1.2;
   margin-top: 1.5rem;
@@ -59,21 +84,6 @@ body {
   font-weight: 700;
 }
 
-#promo-container #promo-section h1 {
-  font-size: 32px;
-}
-
-#promo-container #promo-section h2 {
-  font-size: 26px;
-}
-
-#promo-container #promo-section h3 {
-  font-size: 22px;
-}
-
-#promo-container #promo-section h4 {
-  font-size: 18px;
-}
 
 /* Force Link Styles */
 #promo-container a {
@@ -93,7 +103,7 @@ hr {
 
 /* Bold Text */
 #promo-container strong {
-  font-weight: 700;
+  font-weight: 600;
 }
 
 /* Comparison Table */

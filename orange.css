@@ -1,7 +1,8 @@
-/* Font and Body */
+/* Scoped Font */
 #promo-container {
   font-family: 'Figtree', sans-serif;
 }
+
 body {
   background-color: #f9f9f9;
 }
@@ -15,7 +16,7 @@ body {
 }
 
 /* Promo Section */
-#promo-section {
+#promo-container #promo-section {
   width: 100%;
   padding: 0;
   color: #444;
@@ -23,247 +24,79 @@ body {
   line-height: 1.4;
 }
 
-/* General Paragraphs, Lists, and HR */
+/* General Paragraphs and Lists */
 #promo-container #promo-section p {
-  margin: 0 0 0.8em;
-  line-height: 1.6;
-  font-size: 17px;
-  letter-spacing: 0em;
+  margin: 0 0 0.8em !important;
+  line-height: 1.6 !important;
+  font-size: 17px !important;
+  letter-spacing: 0em !important;
 }
 
 #promo-container #promo-section ul {
-  margin: 0.8em 0 1em;
-  padding-left: 1.2em;
+  margin: 0.8em 0 1em !important;
+  padding-left: 1.2em !important;
 }
 
 #promo-container #promo-section li {
-  margin-bottom: 0.5em;
-}
-
-#promo-container #promo-section hr {
-  margin: 2rem 0;
-  border: none;
-  border-top: 1px solid #ccc;
-  height: 0;
+  margin-bottom: 0.5em !important;
 }
 
 /* Headings */
 #promo-container #promo-section h1 {
-  font-size: 32px;
-  color: #222;
-  line-height: 1.2;
-  margin-top: 0.2rem;
-  margin-bottom: 0.8rem;
-  font-weight: 700;
+  font-size: 32px !important;
+  color: #222 !important;
+  line-height: 1.2 !important;
+  margin-top: 0.2rem !important;
+  margin-bottom: 0.8rem !important;
+  font-weight: 700 !important;
 }
 
 #promo-container #promo-section h2 {
-  font-size: 26px;
-  color: #222;
-  line-height: 1.2;
-  margin-top: 0.2rem;
-  margin-bottom: 0.8rem;
-  font-weight: 700;
+  font-size: 26px !important;
+  color: #222 !important;
+  line-height: 1.2 !important;
+  margin-top: 0.2rem !important;
+  margin-bottom: 0.8rem !important;
+  font-weight: 700 !important;
 }
 
 #promo-container #promo-section h3 {
-  font-size: 22px;
-  color: #222;
-  line-height: 1.2;
-  margin-top: 0.5rem;
-  margin-bottom: 0.5rem;
-  font-weight: 700;
+  font-size: 22px !important;
+  color: #222 !important;
+  line-height: 1.2 !important;
+  margin-top: 0.5rem !important;
+  margin-bottom: 0.5rem !important;
+  font-weight: 700 !important;
 }
 
 #promo-container #promo-section h4 {
-  font-size: 18px;
-  color: #222;
-  line-height: 1.2;
-  margin-top: 1.5rem;
-  margin-bottom: 0.8rem;
-  font-weight: 700;
-}
-
-
-/* Force Link Styles */
-#promo-container a {
-  text-decoration: none !important;
-}
-
-#promo-container a:hover {
-  text-decoration: underline !important;
+  font-size: 18px !important;
+  color: #222 !important;
+  line-height: 1.2 !important;
+  margin-top: 1.5rem !important;
+  margin-bottom: 0.8rem !important;
+  font-weight: 700 !important;
 }
 
 /* Horizontal Rule */
-hr {
-  margin: 2rem 0;
-  border: none;
-  border-top: 0.6px solid #ccc;
+#promo-container #promo-section hr {
+  margin: 2rem 0 !important;
+  border: none !important;
+  border-top: 1px solid #ccc !important;
+  height: 0 !important;
+}
+
+/* Links */
+#promo-container #promo-section a {
+  color: #1155cc !important;
+  text-decoration: none !important;
+}
+
+#promo-container #promo-section a:hover {
+  text-decoration: underline !important;
 }
 
 /* Bold Text */
 #promo-container strong {
-  font-weight: 600;
-}
-
-/* Comparison Table */
-.comparison-table {
-  width: 100%;
-  border-collapse: collapse;
-  margin-top: 1.2rem;
-  font-size: 15px;
-}
-
-.comparison-table th,
-.comparison-table td {
-  border: 1px solid #ddd;
-  padding: 10px;
-  text-align: left;
-}
-
-.comparison-table th {
-  background-color: #f9f9f9;
-  font-weight: 700;
-  color: #222;
-}
-
-.comparison-table tr:nth-child(even) {
-  background-color: #f6f6f6;
-}
-
-/* Spacer and Section Break */
-.spacer {
-  margin-top: 1.5rem;
-}
-
-.section-break {
-  margin: 2rem 0;
-  border: none;
-  border-top: 1px solid #ddd;
-}
-
-/* Disclaimer */
-.disclaimer {
-  font-size: 10pt;
-  color: #777;
-  margin-bottom: 0.8em;
-}
-
-/* Bottom Link Button */
-#promo-section .bottom-link {
-  display: block;
-  background-color: #002d5d;
-  color: #fff;
-  text-align: center;
-  padding: 0.85rem;
-  border-radius: 8px;
-  margin-top: 1.25rem;
-  text-decoration: none;
-  font-weight: 600;
-  font-size: 0.92rem;
-}
-
-#promo-section .bottom-link:hover {
-  text-decoration: underline;
-}
-
-/* Card-Card Styles */
-.card-card {
-  background: #fff;
-  padding: 1.25rem 1.5rem;
-  border: 1px solid #ddd;
-  border-radius: 10px;
-  margin-bottom: 1.5rem;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.06);
-  color: #333;
-}
-
-/* Card Labels */
-.card-card .label {
-  display: inline-block;
-  background-color: #007aff;
-  color: #fff;
-  font-size: 0.65rem;
-  font-weight: 600;
-  text-transform: uppercase;
-  padding: 0.35rem 0.7rem;
-  border-radius: 999px;
-  margin-bottom: 0.9rem;
-  letter-spacing: 0.5px;
-}
-
-/* Card Headings */
-#promo-section .card-card h1 {
-  font-size: 1.55rem;
-  margin: 0 0 0.8rem;
-  line-height: 1.35;
-  font-weight: 800;
-  color: #003087;
-}
-
-#promo-section .card-card h1 a {
-  display: inline-block;
-  color: inherit;
-  font-weight: 700;
-  text-decoration: none;
-}
-
-#promo-section .card-card h1 a:hover {
-  text-decoration: underline;
-}
-
-/* Section Labels inside Cards */
-.card-card strong.section-label {
-  display: block;
-  margin: 1.2rem 0 0.4rem;
-  font-size: 0.8rem;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 0.8px;
-  color: #111;
-}
-
-/* Lists inside Cards */
-.card-card ul {
-  margin: 0 0 0.4rem;
-  padding-left: 1.2rem;
-}
-
-.card-card li {
-  margin-bottom: 0.3rem;
-  line-height: 1.55;
-  font-size: 0.95rem;
-}
-
-/* Paragraphs inside Cards */
-.card-card p {
-  margin: 0.5rem 0;
-  line-height: 1.5;
-  font-size: 0.95rem;
-  letter-spacing: 0em;
-}
-
-.card-card p:last-of-type {
-  margin-top: 0.6rem;
-  font-weight: 500;
-}
-
-/* Links inside Cards */
-.card-card a {
-  color: #1155cc;
-  text-decoration: none;
-}
-
-.card-card a:hover {
-  text-decoration: underline;
-}
-
-/* Note Box inside Cards */
-.note {
-  background-color: #f1f1f1;
-  border-left: 4px solid #bbb;
-  padding: 0.9rem;
-  margin: 1.2rem 0;
-  border-radius: 6px;
-  font-size: 0.88rem;
+  font-weight: 600 !important;
 }

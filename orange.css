@@ -6,7 +6,15 @@
 body {
   background-color: #f9f9f9;
 }
-
+/* Force Headings to Use Figtree */
+#promo-container h1,
+#promo-container h2,
+#promo-container h3,
+#promo-container h4,
+#promo-container h5,
+#promo-container h6 {
+  font-family: 'Figtree', sans-serif !important;
+}
 /* Promo Container */
 #promo-container {
   max-width: 531px;

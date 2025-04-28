@@ -1,19 +1,14 @@
-/* Reset Default Browser Styling */
-#promo-container, #promo-section, h1, h2, h3, h4, p, ul, li, a, strong, hr {
-  all: unset;
-  display: revert;
-  box-sizing: border-box;
-}
-
-/* Font and Body */
+/* Scoped Font */
 #promo-container {
   font-family: 'Figtree', sans-serif;
 }
+
+/* Body Background */
 body {
   background-color: #f9f9f9;
 }
 
-/* Promo Container */
+/* Container */
 #promo-container {
   max-width: 531px;
   display: flex;
@@ -30,83 +25,190 @@ body {
   line-height: 1.4;
 }
 
-/* Paragraphs and Lists */
-#promo-section p {
-  margin: 0 0 0.8em;
-  font-size: 17px;
-  line-height: 1.6;
-  letter-spacing: 0em;
-}
-
-#promo-section ul {
-  margin: 0.8em 0 1em;
-  padding-left: 1.2em;
-}
-
-#promo-section li {
-  margin-bottom: 0.5em;
-  line-height: 1.6;
-  letter-spacing: 0em;
-}
-
-/* Promo Headings (Custom Classes) */
-h1.ph1 {
-  font-size: 32px;
-  color: #222;
+/* Title */
+.title {
+  font-size: 46px;
   font-weight: 700;
-  line-height: 1.2;
-  margin-top: 0.2rem;
-  margin-bottom: 0.8rem;
+  margin-bottom: 1.2rem;
+  line-height: 1.3;
 }
 
-h2.ph2 {
-  font-size: 26px;
-  color: #222;
+/* Card Box */
+.card-card {
+  background: #fff;
+  padding: 1.25rem 1.5rem;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.06);
+  color: #333;
+}
+
+/* Pill-style Label */
+.card-card .label {
+  display: inline-block;
+  background-color: #007aff;
+  color: #fff;
+  font-size: 0.65rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  padding: 0.35rem 0.7rem;
+  border-radius: 999px;
+  margin-bottom: 0.9rem;
+  letter-spacing: 0.5px;
+}
+
+/* Card Headings */
+#promo-section .card-card h1 {
+  font-size: 1.55rem;
+  margin: 0 0 0.8rem;
+  line-height: 1.35;
+  font-weight: 800;
+  color: #003087;
+}
+
+#promo-section .card-card h1 a {
+  display: inline-block;
+  color: inherit;
   font-weight: 700;
-  line-height: 1.2;
-  margin-top: 0.2rem;
-  margin-bottom: 0.8rem;
+  text-decoration: none;
 }
 
-h3.ph3 {
-  font-size: 22px;
-  color: #222;
+#promo-section .card-card h1 a:hover {
+  text-decoration: underline;
+}
+
+/* Section Labels */
+.card-card strong.section-label {
+  display: block;
+  margin: 1.2rem 0 0.4rem;
+  font-size: 0.8rem;
   font-weight: 700;
-  line-height: 1.2;
-  margin-top: 0.5rem;
-  margin-bottom: 0.5rem;
+  text-transform: uppercase;
+  letter-spacing: 0.8px;
+  color: #111;
 }
 
-h4.ph4 {
-  font-size: 18px;
-  color: #222;
-  font-weight: 700;
-  line-height: 1.2;
-  margin-top: 1.5rem;
-  margin-bottom: 0.8rem;
+/* Lists */
+.card-card ul {
+  margin: 0 0 0.4rem;
+  padding-left: 1.2rem;
 }
 
-/* Link Styles */
-#promo-container a {
+.card-card li {
+  margin-bottom: 0.3rem;
+  line-height: 1.55;
+  font-size: 0.95rem;
+}
+
+/* Paragraphs */
+.card-card p {
+  margin: 0.5rem 0;
+  line-height: 1.5;
+  font-size: 0.95rem;
+}
+
+.card-card p:last-of-type {
+  margin-top: 0.6rem;
+  font-weight: 500;
+}
+
+/* Links */
+.card-card a,
+#promo-section a {
   color: #1155cc;
   text-decoration: none;
 }
 
-#promo-container a:hover {
+.card-card a:hover,
+#promo-section a:hover {
   text-decoration: underline;
 }
 
-/* Horizontal Rule */
-#promo-section hr {
+/* Note Box */
+.note {
+  background-color: #f1f1f1;
+  border-left: 4px solid #bbb;
+  padding: 0.9rem;
+  margin: 1.2rem 0;
+  border-radius: 6px;
+  font-size: 0.88rem;
+}
+
+/* Bottom Link Button */
+#promo-section .bottom-link {
+  display: block;
+  background-color: #002d5d;
+  color: #fff;
+  text-align: center;
+  padding: 0.85rem;
+  border-radius: 8px;
+  margin-top: 1.25rem;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 0.92rem;
+}
+
+#promo-section .bottom-link:hover {
+  text-decoration: underline;
+}
+
+/* General Paragraphs, Lists, HR */
+#promo-container #promo-section p {
+  margin: 0 0 0.8em;
+  line-height: 1.6;
+  font-size: 17px;
+}
+
+#promo-container #promo-section ul {
+  margin: 0.8em 0 1em;
+  padding-left: 1.2em;
+}
+
+#promo-container #promo-section li {
+  margin-bottom: 0.5em;
+}
+
+#promo-container #promo-section hr {
   margin: 2rem 0;
   border: none;
   border-top: 1px solid #ccc;
   height: 0;
 }
 
-/* Bold Text */
-#promo-container strong {
-  font-weight: 600;
+/* Headings */
+#promo-container #promo-section h1, 
+#promo-container #promo-section h2, 
+#promo-container #promo-section h3, 
+#promo-container #promo-section h4 {
+  color: #222;
+  line-height: 1.2;
+  margin-top: 1.5rem;
+  margin-bottom: 0.8rem;
+  font-weight: 700;
+}
+
+#promo-container #promo-section h1 {
+  font-size: 32px;
+}
+
+#promo-container #promo-section h2 {
+  font-size: 26px;
+}
+
+#promo-container #promo-section h3 {
+  font-size: 22px;
+}
+
+#promo-container #promo-section h4 {
+  font-size: 18px;
+}
+
+/* Disclaimer */
+.disclaimer {
+  font-size: 10pt;
+  color: #777;
+  margin-bottom: 0.8em;
 }
 
 /* Comparison Table */
@@ -145,127 +247,23 @@ h4.ph4 {
   border-top: 1px solid #ddd;
 }
 
-/* Disclaimer */
-.disclaimer {
-  font-size: 10pt;
-  color: #777;
-  margin-bottom: 0.8em;
+/* Force Link Styles */
+#promo-container a {
+  text-decoration: none !important;
 }
 
-/* Bottom Link Button */
-#promo-section .bottom-link {
-  display: block;
-  background-color: #002d5d;
-  color: #fff;
-  text-align: center;
-  padding: 0.85rem;
-  border-radius: 8px;
-  margin-top: 1.25rem;
-  text-decoration: none;
-  font-weight: 600;
-  font-size: 0.92rem;
+#promo-container a:hover {
+  text-decoration: underline !important;
 }
 
-#promo-section .bottom-link:hover {
-  text-decoration: underline;
+/* HR */
+hr {
+  margin: 2rem 0;
+  border: none;
+  border-top: 0.6px solid #ccc;
 }
 
-/* Card-Card Styles */
-.card-card {
-  background: #fff;
-  padding: 1.25rem 1.5rem;
-  border: 1px solid #ddd;
-  border-radius: 10px;
-  margin-bottom: 1.5rem;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.06);
-  color: #333;
-}
-
-.card-card .label {
-  display: inline-block;
-  background-color: #007aff;
-  color: #fff;
-  font-size: 0.65rem;
-  font-weight: 600;
-  text-transform: uppercase;
-  padding: 0.35rem 0.7rem;
-  border-radius: 999px;
-  margin-bottom: 0.9rem;
-  letter-spacing: 0.5px;
-}
-
-/* Card Headings */
-.card-card h1 {
-  font-size: 1.55rem;
-  margin: 0 0 0.8rem;
-  line-height: 1.35;
-  font-weight: 800;
-  color: #003087;
-}
-
-.card-card h1 a {
-  display: inline-block;
-  color: inherit;
+/* Bold Text */
+#promo-container strong {
   font-weight: 700;
-  text-decoration: none;
-}
-
-.card-card h1 a:hover {
-  text-decoration: underline;
-}
-
-/* Section Labels inside Cards */
-.card-card strong.section-label {
-  display: block;
-  margin: 1.2rem 0 0.4rem;
-  font-size: 0.8rem;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 0.8px;
-  color: #111;
-}
-
-/* Lists inside Cards */
-.card-card ul {
-  margin: 0 0 0.4rem;
-  padding-left: 1.2rem;
-}
-
-.card-card li {
-  margin-bottom: 0.3rem;
-  line-height: 1.55;
-  font-size: 0.95rem;
-}
-
-/* Paragraphs inside Cards */
-.card-card p {
-  margin: 0.5rem 0;
-  line-height: 1.5;
-  font-size: 0.95rem;
-  letter-spacing: 0em;
-}
-
-.card-card p:last-of-type {
-  margin-top: 0.6rem;
-  font-weight: 500;
-}
-
-/* Links inside Cards */
-.card-card a {
-  color: #1155cc;
-  text-decoration: none;
-}
-
-.card-card a:hover {
-  text-decoration: underline;
-}
-
-/* Note Box inside Cards */
-.note {
-  background-color: #f1f1f1;
-  border-left: 4px solid #bbb;
-  padding: 0.9rem;
-  margin: 1.2rem 0;
-  border-radius: 6px;
-  font-size: 0.88rem;
 }

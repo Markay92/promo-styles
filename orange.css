@@ -10,7 +10,7 @@ body {
 
 /* Container */
 #promo-container {
-  max-width: 531px;
+  font-family: 'Figtree', sans-serif;
   display: flex;
   justify-content: center;
   padding: 0;

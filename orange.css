@@ -230,13 +230,20 @@
     margin-bottom: 0.4em !important;
 }
 
+.disclaimer-title {
+  font-size: 9pt;
+  font-weight: 600;
+  margin-bottom: 0.3em;
+}
 
-/* Disclaimer */
-.disclaimer {
-  font-size: 10pt;
+.disclaimer-text {
+  font-size: 8pt;
+  font-weight: 400;
   color: #777;
+  line-height: 1.4;
   margin-bottom: 0.8em;
 }
+
 
 /* Comparison Table */
 .comparison-table {

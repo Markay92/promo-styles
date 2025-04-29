@@ -4,11 +4,6 @@
   font-family: 'Figtree', sans-serif !important;
 }
 
-/* Body Background */
-body {
-  font-family: 'Figtree', sans-serif !important;
-}
-
 /* Container */
 #promo-container {
   display: flex;
@@ -71,7 +66,7 @@ body {
 #promo-section .card-card h1 {
   font-size: 1.55rem;
   margin: 0 0 0.8rem;
-  line-height: 1.35;
+  line-height: 1.4;
   font-weight: 800;
   color: #003087;
 }
@@ -194,7 +189,7 @@ body {
 #promo-container #promo-section h6 {
   color: #3b3a3a !important;
   font-weight: 700 !important;
-  line-height: 1 !important;
+  line-height: 1.2 !important;
 }
 
 /* Unique Top Margins */

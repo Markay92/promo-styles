@@ -194,39 +194,44 @@ body {
   color: #3b3a3a !important;
   font-weight: 700 !important;
   line-height: 1 !important;
-  margin-bottom: 0.4em !important;
 }
 
 /* Unique Top Margins */
 #promo-container #promo-section h1 {
   font-size: 24pt !important;
   margin-top: 0 !important;
-  margin-bottom: 1.8 !important;
+  margin-bottom: 0.4em !important;
+
 }
 
 #promo-container #promo-section h2 {
   font-size: 20pt !important;
   margin-top: 1.6rem !important;
+  margin-bottom: 0.4em !important;  
 }
 
 #promo-container #promo-section h3 {
   font-size: 16pt !important;
   margin-top: 1.2rem !important;
+    margin-bottom: 0.4em !important;
 }
 
 #promo-container #promo-section h4 {
   font-size: 12pt !important;
   margin-top: 1rem !important;
+    margin-bottom: 0.4em !important;
 }
 
 #promo-container #promo-section h5 {
   font-size: 14pt !important;
   margin-top: 0.8rem !important;
+    margin-bottom: 0.4em !important;
 }
 
 #promo-container #promo-section h6 {
   font-size: 11pt !important;
   margin-top: 0.6rem !important;
+    margin-bottom: 0.4em !important;
 }
 
 

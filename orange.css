@@ -21,7 +21,7 @@
 }
 
  #promo-section .subtitle {
-    font-size: 12pt !important;
+    font-size: 13pt !important;
     color: #666 !important;
     font-weight: 600 !important;
     margin-top: 0em !important;
@@ -232,14 +232,14 @@
 
 /* Disclaimer Title and Text */
 #promo-section .disclaimer-title {
-  font-size: 12px !important;
+  font-size: 13px !important;
   font-weight: 600 !important;
   color: #383330 !important;
   margin-bottom: 0em !important;
 }
 
 #promo-section .disclaimer-text {
-  font-size: 12px !important;
+  font-size: 13px !important;
   font-weight: 400 !important;
   color: #777 !important;
   line-height: 1.2 !important;
@@ -295,7 +295,7 @@
 
 /* HR */
 #promo-section hr {
-  margin: 2rem 0 !important;
+  margin: 2.5rem 0 !important;
   border: none;
   border-top: 0.6px solid #ccc;
 }

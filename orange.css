@@ -230,14 +230,15 @@
     margin-bottom: 0.4em !important;
 }
 
-.disclaimer-title {
-  font-size: 9pt;
+#promo-section .disclaimer-title {
+  font-size: 7pt;
   font-weight: 600;
-  margin-bottom: 0.3em;
+  color: #383330;
+  margin-bottom: 0em;
 }
 
-.disclaimer-text {
-  font-size: 8pt;
+#promo-section .disclaimer-text {
+  font-size: 7pt;
   font-weight: 400;
   color: #777;
   line-height: 1.4;

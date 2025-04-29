@@ -25,6 +25,14 @@ body {
   line-height: 1.4;
 }
 
+ #promo-section .subtitle {
+    font-size: 15pt !important;
+    color: #666 !important;
+    font-weight: 600 !important;
+    margin-top: -8px !important;
+    line-height: 1.2 !important;
+  }
+
 /* Title */
 .title {
   font-size: 46px;

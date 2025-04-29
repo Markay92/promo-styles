@@ -232,19 +232,19 @@
 
 /* Disclaimer Title and Text */
 #promo-section .disclaimer-title {
-  font-size: 11px !important;
+  font-size: 12px !important;
   font-weight: 600 !important;
   color: #383330 !important;
   margin-bottom: 0em !important;
 }
 
 #promo-section .disclaimer-text {
-  font-size: 11px !important;
+  font-size: 12px !important;
   font-weight: 400 !important;
   color: #777 !important;
-  line-height: 1.4 !important;
+  line-height: 1.2 !important;
   margin-top: 0.4em !important;
-  margin-bottom: 0.8em !important;
+  margin-bottom: 0.4em !important;
 }
 
 
@@ -275,7 +275,7 @@
 
 /* Spacer and Section Break */
 #promo-section .spacer {
-  margin-top: 1.5rem;
+  margin-top: 1.5rem !important;
 }
 
 .section-break {
@@ -294,8 +294,8 @@
 }
 
 /* HR */
-hr {
-  margin: 2rem 0;
+#promo-section hr {
+  margin: 2rem 0 !important;
   border: none;
   border-top: 0.6px solid #ccc;
 }

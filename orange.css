@@ -230,19 +230,20 @@
     margin-bottom: 0.4em !important;
 }
 
+/* Disclaimer Title and Text */
 #promo-section .disclaimer-title {
-  font-size: 8px;
-  font-weight: 600;
-  color: #383330;
-  margin-bottom: 0em;
+  font-size: 8px !important;
+  font-weight: 600 !important;
+  color: #383330 !important;
+  margin-bottom: 0em !important;
 }
 
 #promo-section .disclaimer-text {
-  font-size: 8px;
-  font-weight: 400;
-  color: #777;
-  line-height: 1.4;
-  margin-bottom: 0.8em;
+  font-size: 8px !important;
+  font-weight: 400 !important;
+  color: #777 !important;
+  line-height: 1.4 !important;
+  margin-bottom: 0.8em !important;
 }
 
 

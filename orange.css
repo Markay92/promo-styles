@@ -247,6 +247,12 @@
   margin-bottom: 0.4em !important;
 }
 
+/* Disclaimer Title and Text */
+#promo-section .rates {
+  font-size: 10px !important;
+  font-weight: 600 !important;
+  color: #1155cc !important;
+}
 
 /* Comparison Table */
 .comparison-table {

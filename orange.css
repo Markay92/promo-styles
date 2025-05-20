@@ -97,14 +97,14 @@
 .card-card ul {
   margin: 0 0 0.2em;
   padding-left: 1.2rem;
-  font-size: 0.8em;
+  font-size: 1em;
   color: #4A4A4A;
 }
 
 .card-card li {
   margin-bottom: 0.2em;
   line-height: 1.55;
-  font-size: 0.8em;
+  font-size: 1em;
   color: #4A4A4A;
 }
 
@@ -113,6 +113,7 @@
   margin: 0.3em 0;
   line-height: 1.5;
   font-size: 1em;
+  color: #4A4A4A;
   
 }
 

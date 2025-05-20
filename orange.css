@@ -53,13 +53,13 @@
   display: inline-block;
   background-color: #007aff;
   color: #fff;
-  font-size: 0.65rem;
+  font-size: 0.65em;
   font-weight: 600;
   text-transform: uppercase;
-  padding: 0.35rem 0.7rem;
+  padding: 0.35em 0.7em;
   border-radius: 999px;
   margin-bottom: 0.9rem;
-  letter-spacing: 0.5px;
+  letter-spacing: 0.2px;
 }
 
 /* Card Headings */
@@ -97,12 +97,14 @@
 .card-card ul {
   margin: 0 0 0.4rem;
   padding-left: 1.2rem;
+  color: #4A4A4A;
 }
 
 .card-card li {
   margin-bottom: 0.3rem;
   line-height: 1.55;
   font-size: 0.95rem;
+  color: #4A4A4A;
 }
 
 /* Paragraphs */

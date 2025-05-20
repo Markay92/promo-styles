@@ -95,23 +95,24 @@
 
 /* Lists */
 .card-card ul {
-  margin: 0 0 0.3rem;
+  margin: 0 0 0.2em;
   padding-left: 1.2rem;
+  font-size: 0.8em;
   color: #4A4A4A;
 }
 
 .card-card li {
-  margin-bottom: 0.3rem;
+  margin-bottom: 0.2em;
   line-height: 1.55;
-  font-size: 1em;
+  font-size: 0.8em;
   color: #4A4A4A;
 }
 
 /* Paragraphs */
 .card-card p {
-  margin: 0.5rem 0;
+  margin: 0.3em 0;
   line-height: 1.5;
-  font-size: 0.95rem;
+  font-size: 1em;
   
 }
 

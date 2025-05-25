@@ -21,7 +21,7 @@
 }
 
  #promo-section .subtitle {
-    font-size: 14pt !important;
+    font-size: 15pt !important;
     color: #666 !important;
     font-weight: 600 !important;
     margin-top: 0em !important;
@@ -85,12 +85,12 @@
 /* Section Labels */
 .card-card strong.section-label {
   display: block;
-  margin: 1.2rem 0 0.4rem;
-  font-size: 0.8rem;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 0.8px;
-  color: #4A4A4A;
+  margin: 1.2rem 0 0.3em !important;
+  font-size: 0.9rem !important;
+  font-weight: 900 !important;
+  text-transform: uppercase !important;
+  letter-spacing: 0.8px !important;
+  color: #4A4A4A !important;
 }
 
 /* Lists */

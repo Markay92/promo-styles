@@ -39,27 +39,27 @@
 
 /* Card Box */
 .card-card {
-  background: #fff;
-  padding: 1.25rem 1.5rem;
-  border: 1px solid #ddd;
-  border-radius: 10px;
-  margin-bottom: 1.5rem;
+  background: #fff !important;
+  padding: 1.25rem 1.5rem !important;
+  border: 1px solid #ddd !important;
+  border-radius: 10px !important;
+  margin-bottom: 1.5rem !important;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.06);
-  color: #333;
+  color: #333 !important;
 }
 
 /* Pill-style Label */
 .card-card .label {
-  display: inline-block;
+  display: inline-block !important;
   background-color: #007aff;
   color: #fff;
-  font-size: 10px;
+  font-size: 10px !important;
   font-weight: 600;
-  text-transform: uppercase;
-  padding: 0.6em 1.2em;
-  border-radius: 999px;
-  margin-bottom: 0.9rem;
-  letter-spacing: 0.3px;
+  text-transform: uppercase !important;
+  padding: 0.6em 1.2em !important;
+  border-radius: 999px !important;
+  margin-bottom: 0.9rem !important;
+  letter-spacing: 0.3px !important;
 }
 
 /* Card Headings */

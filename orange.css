@@ -307,8 +307,8 @@
 /* HR */
 #promo-section hr {
   margin: 2.5rem 0 !important;
-  border: none;
-  border-top: 0.6px solid #ccc;
+  border: none !important;
+  border-top: 0.6px solid #ccc !important;
 }
 
 /* Bold Text */
